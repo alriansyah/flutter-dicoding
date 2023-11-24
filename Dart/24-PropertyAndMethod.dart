@@ -1,4 +1,4 @@
-import 'lib/animal.dart';
+import 'lib/animalPrivate.dart';
 
 void main() {
   var dicodingCat = Animal('Gray', 2, 4.2);

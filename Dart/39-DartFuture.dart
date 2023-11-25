@@ -1,3 +1,5 @@
+// ignore_for_file: dead_code, unused_local_variable
+
 void main() {
   final myFuture = Future(() {
     print('Creating the future');

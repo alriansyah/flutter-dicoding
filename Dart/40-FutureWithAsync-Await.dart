@@ -17,7 +17,7 @@ Future<String> getOrder() {
   return Future.delayed(Duration(seconds: 3), () {
     if (false) {
       return 'Coffee Boba';
-    } else {
+    } else 
       throw 'Our stock is not enough.';
     }
   });

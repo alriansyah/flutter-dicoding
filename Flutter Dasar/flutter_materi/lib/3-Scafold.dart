@@ -29,22 +29,28 @@ class FirstScreen extends StatelessWidget {
         ),
         backgroundColor: Colors.blue,
       ),
-      body: Container(
-        decoration: BoxDecoration(
-          color: Colors.red,
-          border: Border.all(color: Colors.green, width: 1),
-          borderRadius: BorderRadius.circular(10),
-        ),
-        padding: const EdgeInsets.all(15.0),
-        margin: const EdgeInsets.all(10.0),
-        child: const Text(
-          'Hi',
-          style: TextStyle(fontSize: 30),
+      body: Center(
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.red,
+            border: Border.all(color: Colors.green, width: 1),
+            borderRadius: BorderRadius.circular(10),
+          ),
+          padding: const EdgeInsets.all(15.0),
+          margin: const EdgeInsets.all(10.0),
+          child: const Text(
+            'Hi',
+            style: TextStyle(fontSize: 30),
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.add),
         onPressed: () {},
+        shape: const CircleBorder(
+            side: BorderSide(
+          color: Colors.blue,
+        )),
+        child: const Icon(Icons.navigation),
       ),
     );
   }

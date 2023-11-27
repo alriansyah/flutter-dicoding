@@ -35,7 +35,7 @@ class FirstScreen extends StatelessWidget {
           border: Border.all(color: Colors.green, width: 1),
           borderRadius: BorderRadius.circular(10),
         ),
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.all(15.0),
         margin: const EdgeInsets.all(10.0),
         child: const Text(
           'Hi',

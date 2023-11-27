@@ -30,12 +30,16 @@ class FirstScreen extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
       body: Container(
-        color: Colors.blue,
-        padding: const EdgeInsets.all(10),
-        margin: const EdgeInsets.all(10),
+        decoration: BoxDecoration(
+          color: Colors.red,
+          border: Border.all(color: Colors.green, width: 1),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        padding: const EdgeInsets.all(10.0),
+        margin: const EdgeInsets.all(10.0),
         child: const Text(
           'Hi',
-          style: TextStyle(fontSize: 40),
+          style: TextStyle(fontSize: 30),
         ),
       ),
       floatingActionButton: FloatingActionButton(

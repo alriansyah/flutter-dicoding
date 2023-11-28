@@ -6,6 +6,7 @@ import './4-RowAndColumn.dart';
 import '5-Button.dart';
 import '6-InputWidget.dart';
 import '7-Image.dart';
+import '8-ListView.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Oswald',
         primarySwatch: Colors.blue,
       ),
-      home: const Gambar(),
+      home: const ScrollingScreen(),
     );
   }
 }

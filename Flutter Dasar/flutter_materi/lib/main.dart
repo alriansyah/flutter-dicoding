@@ -5,6 +5,7 @@ import './3-Scafold.dart';
 import './4-RowAndColumn.dart';
 import '5-Button.dart';
 import '6-InputWidget.dart';
+import '7-Image.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const InputWidget(),
+      home: const Gambar(),
     );
   }
 }

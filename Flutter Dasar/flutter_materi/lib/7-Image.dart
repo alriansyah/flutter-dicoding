@@ -18,6 +18,13 @@ class Gambar extends StatelessWidget {
             height: 200,
           ),
           Image.asset('images/android.png', width: 200, height: 200),
+          const Text(
+            'Custom Font',
+            style: TextStyle(
+              // fontFamily: 'Oswald',
+              fontSize: 30,
+            ),
+          ),
         ]),
       ),
     );

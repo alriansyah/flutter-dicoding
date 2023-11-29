@@ -7,6 +7,10 @@ import '5-Button.dart';
 import '6-InputWidget.dart';
 import '7-Image.dart';
 import '8-ListView.dart';
+import '9-ExpandedAndFlexible.dart';
+import '10-Navigation.dart';
+import '11-ResponsiveLayout.dart';
+import '12-ImplementResponsivePage.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Oswald',
         primarySwatch: Colors.blue,
       ),
-      home: const ScrollingScreen(),
+      home: const ResponsivePage(),
     );
   }
 }
